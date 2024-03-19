@@ -1,0 +1,137 @@
+      
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.pexels.com/photos/172276/pexels-photo-172276.jpeg?auto=compress&cs=tinysrgb&w=600');
+    
+}
+.container {
+    
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .sosBox{
+            display: inline-grid;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            /* color:  #F3E0DC; */
+            color:2px solid  black;
+            padding: 300px;
+            grid-template-columns: auto auto auto auto auto auto auto;
+        }
+        .box{
+            
+            text-align: center;
+            width: 30px;
+            height: 30px;
+            border: 2px solid black;
+            padding: 20px;
+
+        } 
+       
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        
+        th, td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        
+.scoreBox{
+    color:  wheat;
+    position: absolute;
+    top: 10px;
+    left: 10px; 
+    margin: 30px;
+
+    flex-grow: 1; 
+
+
+}
+.icon{
+    display: flex;
+    float: right;
+    width: 50px;
+     margin-left: 10px; 
+        
+}
+.user{
+    padding: 10px;
+    padding-left: 10px;
+    display: flex; 
+    align-items: center; 
+}
+.user img{
+  display: flex;
+  float: left;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 20px;
+  
+}
+
+.turns {
+            display: none; 
+            position: fixed; 
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgba(255, 255, 255, 0.9)
+        }
+
+        .content {
+            text-align: center;
+            background-color: #D4A59A;
+            color:#5C2018;
+            margin: 15% ;
+            padding: 20px;
+           height: 50%;
+            width: 80%; 
+            animation: fadeIn 0.5s ease-in-out;
+        }
+      
+@media only screen and (max-width: 768px) {
+    .content {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .content {
+        width: 95%;
+        height: 95%;
+    }
+}
+
+
+        @keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@media (max-width: 768px) {
+            .box {
+                padding: 5px;
+                font-size: 10px;
+            }
+
+            .user img {
+                width: 30px;
+            }
+        }

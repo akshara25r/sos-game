@@ -1,0 +1,160 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    flex-direction: column;
+    color:  wheat;
+    background-image: url('https://images.pexels.com/photos/172276/pexels-photo-172276.jpeg?auto=compress&cs=tinysrgb&w=600');
+   }
+  
+.heading {
+  padding-top: 30px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px; 
+}
+
+.users {
+    text-align: center;
+    width: 100%;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+.play-button{
+  font-size: 16px;
+  padding: 8px;
+  width: 120px;
+  border-radius: 10px;
+}
+.howtoplay{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding-left: 15px;
+  
+}
+.howtoplay img{
+  width: 30px;
+}
+.image{
+  display: inline;
+  margin: 3px;
+  width: 40px;
+  cursor: pointer;
+}
+.icon{
+  display: flex; 
+  align-items: center;
+}
+#prevBtn, #nextBtn{
+  width: 50px;
+  height: 40px;
+  border: none; 
+  color: wheat;
+  background-color: #5C2018;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.selected-image{
+  display: flex;
+  float: left;
+  border: 1px solid black;
+  margin: 3px;
+  width: 40px;
+  border-radius: 20px;
+
+} 
+.user {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        .image-box {
+    display: flex;
+  float: left;
+  margin: 3px;
+  width: 40px;
+  border-radius: 15px;
+            margin-right: 10px; 
+        }
+        .play-button:hover::after {
+      content: "It is a play Button";
+      position: absolute;
+      bottom: -30px; 
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      z-index: 1;
+        }
+        .howtoplay:hover::after {
+      content: "How to play";
+      position: absolute;
+      bottom: -30px; 
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      z-index: 1;
+        }
+
+
+        .howToplay {
+            display: none; 
+            position: fixed; 
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgba(255, 255, 255, 0.9)
+        }
+input{
+  color: wheat;
+  background-color: #5C2018;
+  border:2px solid  black;
+  border-radius: 10%;
+}
+button{
+  background-color: #5C2018;
+  border:2px solid  black;
+  color: wheat;
+ 
+
+}
+.content {
+    background-color: #D4A59A;
+    color:#5C2018;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    margin: 15% auto;
+    animation: fadeIn 0.05s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .content {
+        width: 95%;
+        height: 95%;
+    }
+}

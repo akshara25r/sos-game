@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOS Game</title>
+    <link rel="stylesheet" href="./index.css" />
+   
+</head>
+
+<body>
+    <div class="heading"><h1>SOS</h1></div>
+    <div class="logos"><h2>Choose One </h2>
+    </div>
+    
+    <div class="icon">
+      <button id="prevBtn">&lt;</button>
+      <div class="image-container" id="imageContainer"></div>
+      <button id="nextBtn">&gt;</button>
+    </div>
+    <div class="alert" id="alertMessage"></div>
+    <form class="gameForm">
+
+      <div class="users">
+        <div class="user">
+          <div class="image-box"></div><h3>  user1 :<input type="text" value="Enter Your Name" name="name" autocomplete="name" style="padding:10px; color: gray" required></h3></div>
+        <div class="user">
+          <div class="image-box"></div><h3>  user2 :<input type="text" value="Enter Your Name" name="name" autocomplete="name" style="padding:10px; color: gray" required></h3></div>
+        <div class="user">
+          <div class="image-box"></div><h3>  user3 :<input type="text" value="Enter Your Name" name="name" autocomplete="name" style="padding:10px; color: gray" required></h3></div>
+        <div class="user">
+          <div class="image-box"></div><h3>  user4 :<input type="text" value="Enter Your Name" name="name" autocomplete="name" style="padding:10px; color: gray" required></h3></div>
+        <div><button class="play-button"type="submit" id="play">Play...!</button><div id="howtoplay" class ="howtoplay">
+
+          <img class="howToPlay" 
+          src="https://cdn-icons-png.flaticon.com/128/3917/3917793.png"></div>
+        </div>
+
+        <div id="howToplay" class="howToplay">
+          <div class="content">
+              <p></p>
+          </div>
+      </div>
+
+      </div>
+
+    </form>
+</body>
+
+<script src="./index.js"></script>
+</html>
