@@ -32,7 +32,24 @@ const arrPic =[
 
     const how_toplay = document.getElementById("howToplay")
     const Content = document.querySelector(".content");
-    Content.innerHTML = `<p> it's your turn.</p>`;
+    Content.innerHTML =  `<p> 
+  <strong>SOS Game Rules:</strong><br><br>
+
+  🔹 <strong>Objective:</strong> Be the player to create the most "SOS" sequences either horizontally, vertically, or diagonally.<br><br>
+
+  🔹 <strong>Step 1:</strong> Each player enters their name and chooses an avatar by clicking on one of the images.<br><br>
+
+  🔹 <strong>Step 2:</strong> After all players are ready, click on <strong>“Play...!”</strong> to start the game.<br><br>
+
+  🔹 <strong>Step 3:</strong> Players take turns placing either "S" or "O" in the grid.<br><br>
+
+  🔹 <strong>Step 4:</strong> A point is awarded each time a valid “SOS” sequence is formed.<br><br>
+
+  🔹 <strong>Step 5:</strong> The game continues until the board is full. The player with the highest score wins!<br><br>
+
+  🔹 💡 <em>Tip:</em> Think ahead and block your opponents while creating your own “SOS” chain!
+</p>
+`;
     how_toplay.style.display = "block";
 
     window.onclick = function (event) {
