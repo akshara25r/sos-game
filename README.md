@@ -42,9 +42,11 @@ Form the sequence **“S-O-S”** horizontally, vertically, or diagonally to sco
 
 ## 📸 Screenshots
 
-![image](https://github.com/user-attachments/assets/729c120a-d561-477e-b085-32c62787db23)
-> ![image](https://github.com/user-attachments/assets/66f55595-f526-4082-b192-a773a2272a8f)
 
+![image](https://github.com/user-attachments/assets/5e99e4f7-b920-4f0c-b66b-df12f91ba4fc)
+ ![image](https://github.com/user-attachments/assets/66f55595-f526-4082-b192-a773a2272a8f)
+![image](https://github.com/user-attachments/assets/729c120a-d561-477e-b085-32c62787db23)
+>
 
 ---
 
